@@ -83,6 +83,27 @@
     #hero-content {
       visibility: hidden;
     }
+    .resume-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00ffcc;
+  background-color: transparent;
+  border: 2px solid #00ffcc;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+}
+
+.resume-btn:hover {
+  background-color: #00ffcc;
+  color: #000;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.6);
+  transform: scale(1.05);
+}
+
 
     /* Welcome Screen Overlay */
     #terminal-overlay {
@@ -127,6 +148,12 @@
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
     }
+    .terminal-window {
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.15);
+  background-color: #000;
+}
   </style>
 </head>
 <body>
@@ -153,6 +180,12 @@
       <p class="lead">I build elegant solutions in code and explore the future with AI.</p>
       <a href="#projects" class="btn btn-custom mt-3">See My Work</a>
     </div>
+    <div class="text-center mt-5" data-aos="zoom-in">
+  <a href="https://drive.google.com/file/d/1aKT7olvd68IM5Qt6Ey7itkP6xDsLy9sx/view?usp=sharing" target="_blank" class="resume-btn">
+    View Resume
+  </a>
+</div>
+
   </section>
 
   <!-- Projects Section -->
@@ -193,6 +226,45 @@
     <p data-aos="fade-right">I'm a passionate developer with experience in AI, full-stack development, and problem-solving. I love turning complex problems into clean, efficient code. I'm also an active member of Team Vector, Presidency University's motorsports club, for which I developed a website for the Team under the inovation head which resulted in Team Vector to win the title of Best Social Media award in Edgeline Championships 2025, Pune. </p>
     <p data-aos="fade-right">In addition to my current internships, I have completed several projects demonstrating expertise in Google Gemini, Vertex AI, and prompt engineering. I take pride in contributing to tech for social good and always strive to make a meaningful impact with my skills.</p>
   </section>
+ <!-- Education Section -->
+<section class="container py-5" id="education">
+  <h2 class="mb-4 text-light" data-aos="fade-up">Education</h2>
+
+  <!-- Presidency University -->
+  <div class="bg-black text-success rounded p-3 mb-4 terminal-window shadow" data-aos="fade-right">
+    <div class="d-flex align-items-center mb-3">
+      <img src="https://th.bing.com/th/id/OIP.WnwnENmker2hJVi4OXcpUwAAAA?cb=iwc2&rs=1&pid=ImgDetMain" alt="Presidency University" width="50" class="me-3 rounded">
+      <h5 class="mb-0">Presidency University, Bangalore</h5>
+    </div>
+    <code class="d-block">B.Tech. Computer Science and Technology (AI ML)</code>
+    <code class="d-block">2021 – 2025</code>
+  </div>
+
+  <!-- IcBio Mahesh PU College -->
+  <div class="bg-black text-success rounded p-3 mb-4 terminal-window shadow" data-aos="fade-right">
+    <div class="d-flex align-items-center mb-3">
+      <img src="https://media-exp1.licdn.com/dms/image/C510BAQGc-Ccov1vmtg/company-logo_200_200/0/1549627484079?e=2159024400&v=beta&t=2me4n4_d2G-Tvq7dPdDj2bGS55kuf4I3vsZ2wC-zuEI" alt="IcBio Mahesh PU College" width="50" class="me-3 rounded">
+      <h5 class="mb-0">IcBio Mahesh PU College, Bangalore</h5>
+    </div>
+    <code class="d-block">Pre-University (KSEEB)</code>
+    <code class="d-block">2nd PUC: 2020 – 2021</code>
+    <code class="d-block">Major: PCME</code>
+    <code class="d-block">Percentage: 80.6%</code>
+  </div>
+
+  <!-- Delhi Public School -->
+  <div class="bg-black text-success rounded p-3 terminal-window shadow" data-aos="fade-right">
+    <div class="d-flex align-items-center mb-3">
+      <img src="https://dpsjhakri.com/images/Bgphotos/dps_logo.jpg" alt="DPS Bangalore North" width="50" class="me-3 rounded">
+      <h5 class="mb-0">Delhi Public School Bangalore North</h5>
+    </div>
+    <code class="d-block">Central Board of Secondary Education (CBSE) </code>
+    <code class="d-block">Class X (2018–2019)</code>
+    <code class="d-block"> Percentage: 79.4%</code>
+  </div>
+</section>
+
+
   <!-- Publications Section -->
 <section class="container py-5" id="publications">
   <h2 class="mb-4" data-aos="fade-up">Publications</h2>
